@@ -3,15 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Peninsula Restaurant</title>
+    <title>About Peninsula Restaurant - Our Story</title>
+    <meta name="description" content="Discover the story behind Peninsula Restaurant, where flavor sets sail. Learn about our unique dining experience, serene ambiance, and commitment to fresh, coastal cuisine.">
+    <meta name="keywords" content="about Peninsula Restaurant, restaurant story, Mombasa dining, coastal cuisine, Mtwapa Creek, ocean view restaurant">
+    <meta name="author" content="Peninsula Restaurant">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.peninsularestaurant.co.ke/about.html">
+    <meta property="og:title" content="About Peninsula Restaurant - Our Story">
+    <meta property="og:description" content="Discover the story behind Peninsula Restaurant, where flavor sets sail. Learn about our unique dining experience, serene ambiance, and commitment to fresh, coastal cuisine.">
+    <meta property="og:image" content="https://www.peninsularestaurant.co.ke/images/sunset.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.peninsularestaurant.co.ke/about.html">
+    <meta property="twitter:title" content="About Peninsula Restaurant - Our Story">
+    <meta property="twitter:description" content="Discover the story behind Peninsula Restaurant, where flavor sets sail. Learn about our unique dining experience, serene ambiance, and commitment to fresh, coastal cuisine.">
+    <meta property="twitter:image" content="https://www.peninsularestaurant.co.ke/images/sunset.jpg">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="door-animation">
+        <div class="door left-door"></div>
+        <div class="door right-door"></div>
+    </div>
+    <div id="page-content">
     <header>
         <nav>
             <div class="logo">
-                <a href="index.html">Peninsula</a>
+                <a href="index.html"><img src="images/logo.png" alt="Peninsula Logo"></a>
             </div>
             <div class="menu-toggle">
                 <span></span>
@@ -22,7 +45,6 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="menu.html">Menu</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -30,59 +52,153 @@
 
     <main>
         <section class="about-us">
-        <div class="container">
-            <h2>About Peninsula</h2>
-            <div class="about-item">
-                <div class="about-text">
-                    <h3>Where Flavor Sets Sail</h3>
-                    <p>Nestled on the picturesque Mtwapa Creek, Peninsula isn't just a restaurant; it's an escape. Here, the gentle sea breeze whispers tales of flavor, and every dish is a voyage of discovery. Our wok is our compass, guiding us to create aromatic treasures that capture the soul of coastal cuisine.</p>
+            <div class="container">
+                <h2 class="fade-in">About Peninsula</h2>
+                <div class="about-item fade-in">
+                    <div class="about-text">
+                        <h3>Ambience & Serenity</h3>
+                        <p>Nestled along the scenic Mtwapa creek, Peninsula offers a tranquil escape away from the burtle and noise. Our open air sitting, gentle breeze and lush surroundings create the perfect ambience for relaxation, intimate dining or a quick reflection.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/sunset.jpg" alt="Sunset at Peninsula">
+                    </div>
                 </div>
-                <div class="about-image">
-                    <img src="images/sunset.jpg" alt="Sunset at Peninsula">
+
+                <div class="three-pillars">
+                    <div class="pillar" data-pillar="1">
+                        <img src="images/layout.jpg" alt="Cliff Top Restaurant">
+                        <h3>Peninsula Cliff Top Restaurant</h3>
+                        <p>The heart of our dining experience, offering panoramic views and a menu that celebrates the best of coastal cuisine.</p>
+                    </div>
+                    <div class="pillar" data-pillar="2">
+                        <img src="images/conference.jpeg" alt="Conference Seating">
+                        <h3>Peninsula Conference Seating</h3>
+                        <p>Host your next event in a setting that inspires. Our conference facilities are perfect for meetings, workshops, and private parties.</p>
+                    </div>
+                    <div class="pillar" data-pillar="3">
+                        <img src="images/tidings.jpeg" alt="Floating Deck">
+                        <h3>Good Tidings Deck</h3>
+                        <p>Coming soon! An intimate dining experience on the water, with unparalleled sunset views.</p>
+                    </div>
+                </div>
+
+                <div class="about-item reverse fade-in">
+                    <div class="about-text">
+                        <h3>Seafood lovers paradise</h3>
+                        <p>Our kitchen celebrates fresh, locally sourced seafood prepared with a coastal flair making every dish capture the taste of the sea.</p>
+                        <a href="menu.html" class="btn">View Our Menu</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/dish.jpg" alt="A delicious seafood dish">
+                    </div>
+                </div>
+                <div class="about-item fade-in">
+                    <div class="about-text">
+                        <h3>Events & Collaborations</h3>
+                        <p>From birthdays and corporate dinners to weddings and private parties, Peninsula provides the perfect venue for any occasion. Our serene environment, quality service and breathtaking backdrop make every event truely memorable.</p>
+                        <a href="contact.html" class="btn">Book Your Event</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/layout.jpg" alt="The layout of the restaurant">
+                    </div>
+                </div>
+                <div class="about-item reverse fade-in">
+                    <div class="about-text">
+                        <h3>Dine Upon the Tides (Coming Soon)</h3>
+                        <p>Prepare for an experience that floats beyond the ordinary. Soon, the Good Tidings Deck will be your private table on the Mtwapa Creek. Imagine dining with your loved ones, gently cradled by the tide, as the moonlight lays a silver carpet across the water just for you. It's more than a meal; it's a memory in the making, whispered on the water and written in the stars.</p>
+                        <a href="contact.html" class="btn">Stay Updated</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/tidings.jpeg" alt="Under Construction Floating Deck">
+                    </div>
+                </div>
+
+                <div class="about-item fade-in">
+                    <div class="about-text">
+                        <h3>The Sundowner Experience</h3>
+                        <p>Witness breathtaking sunsets that paint the sky in gold and crimson. Enjoy a chilled drink as you unwind to the rythm of nature- a moment best captured from our waterfront deck.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/view.jpeg" alt="Sunset at Peninsula">
+                    </div>
+                </div>
+
+                <div class="about-item reverse fade-in">
+                    <div class="about-text">
+                        <h3>Boat rides & Water adventures</h3>
+                        <p>Experience Mtwapa creek like never before. From serene boat cruises and thrilling water sports to guided ducational excusions, our water-based activities cater for those seeking adventure and fun.</p>
+                    </div>
+                    <div class="about-image">
+                        <video autoplay loop muted playsinline class="about-video">
+                            <source src="images/droneshot.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="about-item fade-in">
+                    <div class="about-text">
+                        <h3>Where Work & Waves Converge</h3>
+                        <p>The Peninsula was anchored in a simple vision: what if a meal could be a milestone, and a workday could feel like a getaway? We saw the serene dance of the Mtwapa Creek and envisioned a haven where productivity and pleasure could coexist in perfect harmony.</p>
+                        <p>By day, consider us your office with an ocean view. We invite you to dock your laptop on our waterfront deck, where the gentle sea breeze is your new colleague and the panoramic vista your new screensaver. As the sun dips below the horizon, our focus shifts from workflow to flavor flow. The clinking of glasses replaces the clicking of keys, and our kitchen crafts dishes that turn a simple dinner into a memorable occasion.</p>
+                        <p>Peninsula is more than a restaurant; it's a destination built for the ebb and flow of your life. It's your story, set against the backdrop of ours.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/logo.png" alt="Peninsula Logo">
+                    </div>
                 </div>
             </div>
-            <div class="about-item reverse">
-                <div class="about-text">
-                    <h3>A Symphony of the Senses</h3>
-                    <p>We orchestrate a daily symphony of the freshest catches. Imagine succulent prawns, tender calamari, and perfectly grilled fish, all singing with a fusion of local spices and international flair. It's more than a meal; it's Mombasa's culinary heritage, reimagined on your plate.</p>
-                </div>
-                <div class="about-image">
-                    <img src="images/dish.jpg" alt="A delicious seafood dish">
-                </div>
-            </div>
-            <div class="about-item">
-                <div class="about-text">
-                    <h3>Sip Back and Relax</h3>
-                    <p>Our bar is a haven of handcrafted cocktails and refreshing drinks, each one a perfect companion to the stunning views. Whether you're here for a sundowner or a nightcap, our drinks are designed to elevate your experience and toast to the good life.</p>
-                </div>
-                <div class="about-image">
-                    <img src="images/drink.jpg" alt="A refreshing cocktail">
-                </div>
-            </div>
-            <div class="about-item reverse">
-                <div class="about-text">
-                    <h3>Your Oasis of Serenity</h3>
-                    <p>With panoramic views that stretch to the horizon, Peninsula is a feast for the eyes and the palate. Our serene ambiance, inspired by the natural beauty of the creek, makes every visit a sensory journey. Come, and let us transport you to a world of culinary delight.</p>
-                </div>
-                <div class="about-image">
-                    <img src="images/layout.jpg" alt="The layout of the restaurant">
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
     </main>
+
+    <div id="pillar-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal-btn">&times;</span>
+            <div class="pillar-slider">
+                <!-- Images will be dynamically inserted here -->
+            </div>
+            <button class="pillar-prev">&#10094;</button>
+            <button class="pillar-next">&#10095;</button>
+        </div>
+    </div>
 
     <footer>
         <div class="container">
-            <div class="social-icons">
-                <a href="https://www.instagram.com/thepeninsularestaurant254?igsh=MTRwb3o5NW84cDNhaw==" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.tiktok.com/@the.peninsularestaurant?_r=1&_t=ZM-912DKXiO7iK" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Peninsula Logo"></a>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-location-dot"></i> Shanzu-Majaoni, Mombasa, Kenya</p>
+                    <p><i class="fas fa-phone"></i> +254117490753</p>
+                    <p><i class="fas fa-clock"></i> 10:00 AM - 11:30 PM Daily</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/thepeninsularestaurant254?igsh=MTRwb3o5NW84cDNhaw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@the.peninsularestaurant?_r=1&_t=ZM-912DKXiO7iK" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
             </div>
-            <p>&copy; 2025 Peninsula Restaurant. All Rights Reserved.</p>
-            <p>Website by <a href="mailto:sydneybuni@gmail.com">CodeCraze Studios</a></p>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Peninsula Restaurant. All Rights Reserved.</p>
+                <p>Website by <a href="mailto:sydneybuni@gmail.com">CodeCraze Studios</a></p>
+            </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    </div>
 </body>
 </html>

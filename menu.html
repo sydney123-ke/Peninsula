@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu - Peninsula Restaurant</title>
+    <meta name="description" content="Explore the delicious wok-style menu at Peninsula Restaurant. From our signature Kuku Kienyeji & Sima to fresh seafood stir-fries, discover a world of flavor.">
+    <meta name="keywords" content="Peninsula Restaurant menu, wok menu, Mombasa food, seafood, Kuku Kienyeji, Kenyan cuisine">
+    <meta name="author" content="Peninsula Restaurant">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.peninsularestaurant.co.ke/menu.html">
+    <meta property="og:title" content="Menu - Peninsula Restaurant">
+    <meta property="og:description" content="Explore the delicious wok-style menu at Peninsula Restaurant. From our signature Kuku Kienyeji & Sima to fresh seafood stir-fries, discover a world of flavor.">
+    <meta property="og:image" content="https://www.peninsularestaurant.co.ke/images/dish.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.peninsularestaurant.co.ke/menu.html">
+    <meta property="twitter:title" content="Menu - Peninsula Restaurant">
+    <meta property="twitter:description" content="Explore the delicious wok-style menu at Peninsula Restaurant. From our signature Kuku Kienyeji & Sima to fresh seafood stir-fries, discover a world of flavor.">
+    <meta property="twitter:image" content="https://www.peninsularestaurant.co.ke/images/dish.jpg">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="page-content">
     <header>
         <nav>
             <div class="logo">
-                <a href="index.html">Peninsula</a>
+                <a href="index.html"><img src="images/logo.png" alt="Peninsula Logo"></a>
             </div>
             <div class="menu-toggle">
                 <span></span>
@@ -22,7 +41,6 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="menu.html">Menu</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -31,31 +49,216 @@
     <main>
         <section class="menu">
         <div class="container">
-            <h2>Our Menu</h2>
-            <div class="menu-category">
-                <h3>Wok Specials</h3>
-                <div class="menu-item">
-                    <h4>Kuku Kienyeji & Sima</h4>
-                    <p>A local favorite, prepared in our signature wok style.</p>
+            <h2 class="fade-in">Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-category fade-in">
+                    <h3><i class="fas fa-bowl-food"></i> Starters</h3>
+                    <div class="menu-item">
+                        <h4>Vegetable Soup</h4>
+                        <p>A hearty and healthy soup made with fresh, seasonal vegetables.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Kienyeji Chicken Soup</h4>
+                        <p>A flavorful and aromatic soup made with free-range chicken.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Beef Broth</h4>
+                        <p>A rich and savory broth, slow-cooked to perfection.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Crunchy Chicken Strips</h4>
+                        <p>Tender chicken strips with a crispy golden coating.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Gresh Vegetable Salad</h4>
+                        <p>A refreshing mix of crisp, seasonal vegetables.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Ceaser Salad</h4>
+                        <p>A classic salad with crisp lettuce, croutons, and a creamy Caesar dressing.</p>
+                    </div>
                 </div>
-                <div class="menu-item">
-                    <h4>Ocean Fresh Stir-fry</h4>
-                    <p>A medley of fresh seafood and vegetables in a savory sauce.</p>
+                <div class="menu-category fade-in">
+                    <h3><i class="fas fa-plate-wheat"></i> Main Courses</h3>
+                    <div class="menu-item">
+                        <h4>Fillet Steak</h4>
+                        <p>A tender and juicy fillet steak, cooked to your liking.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Pepper Steak</h4>
+                        <p>A succulent steak with a rich and spicy pepper sauce.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Mushroom Steak</h4>
+                        <p>A delicious steak smothered in a creamy mushroom sauce.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Escalope</h4>
+                        <p>A breaded and fried chicken cutlet, served with a side of your choice.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Pilipili</h4>
+                        <p>Spicy and flavorful chicken, a true taste of the coast.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Chips</h4>
+                        <p>Crispy fried chicken served with a generous portion of chips.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Kienyeji Chicken (1/2)</h4>
+                        <p>Half a free-range chicken, prepared in our signature style.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Kienyeji Chicken (Full)</h4>
+                        <p>A whole free-range chicken, perfect for sharing.</p>
+                    </div>
                 </div>
-                <div class="menu-item">
-                    <h4>Peninsula Beef</h4>
-                    <p>Tender beef strips with our secret blend of spices.</p>
+                <div class="menu-category fade-in">
+                    <h3><i class="fas fa-fish"></i> Seafood</h3>
+                    <div class="menu-item">
+                        <h4>Fresh Tilapia</h4>
+                        <p>Locally sourced tilapia, grilled or fried to perfection.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Fish Choma</h4>
+                        <p>Grilled fish with a smoky flavor, a Kenyan classic.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Fish and Chips</h4>
+                        <p>A timeless dish of battered fish and crispy chips.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Grilled Lobster</h4>
+                        <p>Succulent lobster, grilled to bring out its natural sweetness.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Grilled Jumbo Prawns</h4>
+                        <p>Large, juicy prawns, grilled and seasoned to perfection.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Grilled Octopus</h4>
+                        <p>Tender and flavorful octopus, grilled with a touch of spice.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Grilled Calamari</h4>
+                        <p>Delicate calamari rings, lightly grilled for a tender texture.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Grilled Mixed Seafood Platter</h4>
+                        <p>A generous platter of assorted grilled seafood, perfect for sharing.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="menu-category">
-                <h3>Appetizers</h3>
-                <div class="menu-item">
-                    <h4>Spring Rolls</h4>
-                    <p>Crispy vegetable spring rolls with a sweet chili dip.</p>
+                <div class="menu-category fade-in">
+                    <h3><i class="fas fa-fire"></i> Sizzlers</h3>
+                    <div class="menu-item">
+                        <h4>Chicken Sizzler</h4>
+                        <p>Tender chicken and vegetables served on a sizzling hot plate.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Beef Cubes Sizzler</h4>
+                        <p>Juicy beef cubes and vegetables, served sizzling to your table.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Grilled Fish Sizzler</h4>
+                        <p>A sizzling platter of grilled fish and fresh vegetables.</p>
+                    </div>
                 </div>
-                <div class="menu-item">
-                    <h4>Prawn Toast</h4>
-                    <p>Golden fried toast with a delicious prawn topping.</p>
+                <div class="menu-category fade-in">
+                    <h3><i class="fas fa-drumstick-bite"></i> Grilled Meats + Platters</h3>
+                    <div class="menu-item">
+                        <h4>Mbuzi Choma (1/2)</h4>
+                        <p>Half a kilogram of delicious grilled goat meat.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Mbuzi Choma (1 kg)</h4>
+                        <p>A full kilogram of our signature grilled goat meat.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Nyama Choma (1 kg)</h4>
+                        <p>A kilogram of expertly grilled beef, a true Kenyan feast.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Beef Pilau</h4>
+                        <p>A fragrant and flavorful rice dish with tender beef.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Beef Platter (1/2kg)</h4>
+                        <p>A sharing platter with a selection of our finest beef cuts.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Platter (1/2kg)</h4>
+                        <p>A sharing platter with a variety of our delicious chicken dishes.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Goat Platter (1 kg)</h4>
+                        <p>A generous platter of our famous grilled goat meat.</p>
+                    </div>
+                </div>
+                <div class="menu-category fade-in">
+                    <h3><i class="fas fa-cookie-bite"></i> Snacks</h3>
+                    <div class="menu-item">
+                        <h4>Beef Sandwich</h4>
+                        <p>A classic sandwich with tender beef and fresh bread.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Sandwich</h4>
+                        <p>A delicious sandwich with grilled chicken and fresh fillings.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chips Mayai</h4>
+                        <p>A popular street food dish of chips cooked in an omelette.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Beef Burger</h4>
+                        <p>A juicy beef patty in a soft bun with all the classic toppings.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Burger</h4>
+                        <p>A succulent chicken patty in a soft bun with your favorite sauce.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chips Masala</h4>
+                        <p>Crispy chips tossed in a spicy and tangy masala sauce.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Plain Chips</h4>
+                        <p>A classic side of golden, crispy potato chips.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Beef Sausage</h4>
+                        <p>A savory beef sausage, grilled to perfection.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Wings</h4>
+                        <p>Crispy and juicy chicken wings, perfect for sharing.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Lollipop</h4>
+                        <p>A fun and flavorful chicken appetizer, a favorite with all ages.</p>
+                    </div>
+                </div>
+                <div class="menu-category fade-in">
+                    <h3><i class="fas fa-mug-hot"></i> Beverages</h3>
+                    <div class="menu-item">
+                        <h4>Masala Tea</h4>
+                        <p>A fragrant and spicy tea, a true taste of the coast.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Milk Tea</h4>
+                        <p>A classic and comforting cup of tea with milk.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Black Tea</h4>
+                        <p>A strong and robust cup of black tea.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Home Brewed Coffee</h4>
+                        <p>A rich and aromatic coffee, brewed in-house.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Expresso Coffee</h4>
+                        <p>A strong and intense shot of coffee.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -64,15 +267,41 @@
 
     <footer>
         <div class="container">
-            <div class="social-icons">
-                <a href="https://www.instagram.com/thepeninsularestaurant254?igsh=MTRwb3o5NW84cDNhaw==" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.tiktok.com/@the.peninsularestaurant?_r=1&_t=ZM-912DKXiO7iK" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Peninsula Logo"></a>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-location-dot"></i> Shanzu-Majaoni, Mombasa, Kenya</p>
+                    <p><i class="fas fa-phone"></i> +254117490753</p>
+                    <p><i class="fas fa-clock"></i> 10:00 AM - 11:30 PM Daily</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/thepeninsularestaurant254?igsh=MTRwb3o5NW84cDNhaw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@the.peninsularestaurant?_r=1&_t=ZM-912DKXiO7iK" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
             </div>
-            <p>&copy; 2025 Peninsula Restaurant. All Rights Reserved.</p>
-            <p>Website by <a href="mailto:sydneybuni@gmail.com">CodeCraze Studios</a></p>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Peninsula Restaurant. All Rights Reserved.</p>
+                <p>Website by <a href="mailto:sydneybuni@gmail.com">CodeCraze Studios</a></p>
+            </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    </div>
 </body>
 </html>
